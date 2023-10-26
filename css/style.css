@@ -89,4 +89,58 @@
 .first-webinar .first-webinar-moore .first-webinar-moore-logo {
   margin: 0 auto;
   display: block;
+  cursor: pointer;
+}
+
+.expectations {
+  min-height: 607px;
+  background-color: #efefef;
+  padding: 85px 0 75px 0;
+}
+
+.expectations .expectations-header-block .expectations-header {
+  color: #252525;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.expectations .expectations-header-block .expectations-divider {
+  width: 220px;
+  height: 7px;
+  background-color: #f9bf3b;
+  margin: 18px auto 0 auto;
+}
+
+.expectations .expectations-header-block .expectations-subheader {
+  color: #4a4a4a;
+  text-align: center;
+  font-size: 23px;
+  font-weight: 400;
+  margin-top: 19px;
+}
+
+.expectations .expectations-webinar {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 50px;
+  margin-top: 46px;
+}
+
+.expectations .expectations-webinar .expectations-webinar-item {
+  display: grid;
+  grid-template-rows: 201px auto;
+  gap: 26px;
+}
+
+.expectations
+  .expectations-webinar
+  .expectations-webinar-item
+  .expectations-webinar-text {
+  color: #4a4a4a;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
 }
